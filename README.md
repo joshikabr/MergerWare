@@ -1,100 +1,92 @@
-# V Task Force
+# J To Do List
 
-V Task Force is a modern task management and productivity platform built using Meteor.js, Blaze, and reactive JavaScript architecture. The application is designed with a professional SaaS-inspired interface focused on workflow organization, task prioritization, responsive design, and real-time user interactions.
+J To Do List is a modern responsive productivity and workflow management application built using Meteor.js and Blaze templates. The application focuses on efficient task organization, workflow tracking, drag-and-drop task handling, and interactive dashboard management through a SaaS-inspired user interface.
 
-This project was developed as part of a Software Engineering Internship technical assessment involving:
-- Meteor.js
-- Blaze Templates
-- JavaScript ES6+
-- Drag-and-Drop Functionality
-- Reactive Frontend Engineering
-- Modern SaaS UI/UX Development
+The project demonstrates reactive frontend architecture, JavaScript ES6+ workflows, modular application structure, and scalable UI development practices.
 
 ---
 
 # Features
 
 ## Authentication System
-- User Signup
-- User Login
-- Persistent Sessions
-- Secure Workspace Access
+- User Registration
+- Secure Login System
+- Session Persistence
 - Logout Functionality
 
 ## Task Management
 - Create Tasks
 - Edit Tasks
 - Delete Tasks
-- Mark Complete / Incomplete
-- Dynamic Task Updates
+- Mark Tasks as Completed
+- Real-Time Reactive Updates
 
-## Categories
+## Task Categories
 - Work
 - Personal
 - Study
 - Urgent
-- Custom Category Creation
+- Custom Categories
 
-## Drag-and-Drop Task Reordering
+## Drag and Drop Workflow
 - Interactive Task Rearrangement
-- Smooth User Experience
-- Dynamic Position Updates
+- Smooth Drag-and-Drop Support
+- Dynamic Task Ordering
 
 ## Priority Management
 - Low Priority
 - Medium Priority
 - High Priority
 - Urgent Priority
-- Color-Coded Priority Badges
+- Visual Priority Indicators
 
 ## Due Date Tracking
-- Due Date Picker
-- Overdue Indicators
-- Due Today Highlighting
+- Due Date Selection
+- Overdue Task Detection
+- Deadline Monitoring
 
 ## Search & Filters
-- Real-Time Search
+- Instant Task Search
 - Filter by Status
 - Filter by Priority
 - Filter by Category
 
 ## Dashboard Analytics
-- Total Tasks
-- Pending Tasks
-- Completed Tasks
-- Overdue Tasks
-- Completion Progress Tracking
+- Total Tasks Counter
+- Completed Tasks Counter
+- Pending Tasks Counter
+- Overdue Tasks Counter
+- Progress Tracking Overview
 
-## UI / UX
-- Modern SaaS Dashboard
-- Dark / Light Mode
-- Responsive Layout
+## User Interface
+- Responsive Dashboard Design
 - Sidebar Navigation
+- Modern SaaS UI
+- Dark / Light Theme
 - Toast Notifications
 - Interactive Components
-- Mobile Friendly Design
-- Smooth Animations & Transitions
+- Mobile-Friendly Layout
 
 ---
 
-# Tech Stack
+# Technology Stack
 
 | Technology | Purpose |
 |---|---|
-| Meteor.js | Full-Stack Framework |
-| Blaze | Reactive Frontend Templates |
+| Meteor.js | Full Stack Framework |
+| Blaze | Reactive UI Rendering |
 | JavaScript ES6+ | Application Logic |
-| MongoDB Concepts | Reactive Data Handling |
-| SortableJS | Drag-and-Drop Functionality |
-| HTML5 | Structure |
+| HTML5 | Markup Structure |
 | CSS3 / SCSS | Styling & Responsive Design |
+| SortableJS | Drag-and-Drop Features |
+| Git & GitHub | Version Control |
 
 ---
 
 # Project Structure
 
 ```bash
-V-Task-Force/
+J-To-Do-List/
 │
 ├── .meteor/
 ├── client/
@@ -106,6 +98,15 @@ V-Task-Force/
 ├── server/
 ├── public/
 ├── tests/
+├── screenshots/
+│   ├── completion.png
+│   ├── createaccount.png
+│   ├── createtask.png
+│   ├── dashboard.png
+│   ├── draganddrop.png
+│   ├── lightmode.png
+│   ├── login.png
+│   └── taskpng.png
 ├── package.json
 ├── package-lock.json
 ├── rspack.config.js
@@ -119,7 +120,8 @@ V-Task-Force/
 
 ## Prerequisites
 
-Install:
+Install the following:
+
 - Node.js
 - Meteor.js
 
@@ -140,13 +142,13 @@ meteor --version
 # Clone Repository
 
 ```bash
-git clone https://github.com/VishalCreations-12/MeregerWare.git
+git clone YOUR_GITHUB_REPOSITORY_LINK
 ```
 
-Move into project directory:
+Move into the project directory:
 
 ```bash
-cd MeregerWare
+cd J-To-Do-List
 ```
 
 ---
@@ -159,13 +161,13 @@ meteor npm install
 
 ---
 
-# Run Application
+# Run the Application
 
 ```bash
 meteor run
 ```
 
-Application will run at:
+The application will run at:
 
 ```bash
 http://localhost:3000
@@ -183,71 +185,80 @@ meteor build ../build --architecture os.linux.x86_64
 
 # Application Screenshots
 
-## Dashboard Overview
+## Dashboard
 
-![Dashboard](./screenshots/dashboard-overview.png)
-
----
-
-## Create Task Modal
-
-![Create Task](./screenshots/create-task-modal.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ---
 
-## Task Management Interface
+## Create Task
 
-![Task Interface](./screenshots/task-interface.png)
-
----
-
-## Light Theme
-
-![Light Theme](./screenshots/light-theme.png)
+![Create Task](./screenshots/createtask.png)
 
 ---
 
-## Dark Theme
+## Drag and Drop Workflow
 
-![Dark Theme](./screenshots/dark-theme.png)
+![Drag and Drop](./screenshots/draganddrop.png)
+
+---
+
+## Task Management
+
+![Task Management](./screenshots/taskpng.png)
+
+---
+
+## Light Mode
+
+![Light Mode](./screenshots/lightmode.png)
+
+---
+
+## Login Interface
+
+![Login](./screenshots/login.png)
+
+---
+
+## Create Account
+
+![Create Account](./screenshots/createaccount.png)
+
+---
+
+## Completion Progress
+
+![Completion](./screenshots/completion.png)
 
 ---
 
 # Future Enhancements
 
-- Team Collaboration
-- Shared Workspaces
+- Multi-User Collaboration
 - Calendar Integration
-- Activity Logs
-- File Attachments
-- Advanced Analytics
+- Activity Tracking
 - Cloud Synchronization
 - Notification Center
+- Team Workspace Features
+- Analytics Dashboard
+- File Attachments
 
 ---
 
-# Highlights
+# Project Highlights
 
-- Modern SaaS-inspired UI
-- Reactive task management workflow
-- Drag-and-drop task organization
-- Responsive design system
-- Dark / Light theme support
-- Professional dashboard architecture
-- Modular project structure
-- Clean and scalable frontend engineering
-
----
-
-# Author
-
-Vishal S
-
-GitHub:
-https://github.com/VishalCreations-12
+- Built with Meteor.js and Blaze
+- Reactive task management workflows
+- Interactive drag-and-drop system
+- Responsive SaaS-inspired UI
+- Dark and Light theme support
+- Scalable frontend architecture
+- Reusable component structure
+- Clean modular code organization
 
 ---
 
-# License
+# Developer
 
-Developed for educational and technical assessment purposes.
+Developed as a productivity and workflow management project using Meteor.js.
